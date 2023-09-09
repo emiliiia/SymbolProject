@@ -7,14 +7,12 @@ package org.symbolBackEnd.mapper;
   @since 05.09.2023 - 20:52
 */
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.symbolBackEnd.dto.post.PostDTO;
 import org.symbolBackEnd.dto.post.PostFormDTO;
 import org.symbolBackEnd.entity.Post;
 
 
-import javax.persistence.EntityManager;
 import java.time.LocalDateTime;
 
 @Component
