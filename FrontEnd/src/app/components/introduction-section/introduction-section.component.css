@@ -1,0 +1,83 @@
+*{
+  margin: auto;
+  width: 88%;
+  background-color: rgba(0, 242, 255, 0);
+}
+.firstP{
+  position: relative;
+  background-color: rgba(227, 190, 43, 0);
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.secondP{
+  position: relative;
+  margin-top: 50px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.secondVideo{
+  width: 50%;
+  float: left;
+  margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+}
+
+.firstVideo{
+  width: 50%;
+  float: right;
+  margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+}
+
+h1{
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+p{
+  font-size: 24px;
+  line-height: 34px;
+  color: #f4f4f4;
+}
+
+
+@media (max-width: 1140px) {
+  p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  video{
+    width: 0%;
+  }
+
+}
+
+@media (max-width: 1530px) {
+  p{
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 2000px) {
+  p{
+    font-size: 24px;
+    line-height: 54px;
+  }
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px); /* Невелика анімація вгору для плавності */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
