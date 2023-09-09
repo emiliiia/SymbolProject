@@ -1,4 +1,4 @@
---database name: webjournal
+--database name: symbol
 DROP TABLE IF EXISTS post, "user", "role", languages, mail_token, refresh_token;
 
 CREATE TABLE "role"
