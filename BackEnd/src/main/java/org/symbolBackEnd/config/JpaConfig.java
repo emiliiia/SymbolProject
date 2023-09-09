@@ -1,15 +1,14 @@
 package org.symbolBackEnd.config;
-
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-
 /*
   @author emilia
   @project SymbolProject
   @class JpaConfig
   @version 1.0.0
-  @since 17.07.2023 - 14:02
+  @since 05.09.2023 - 20:20
 */
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @Configuration
 @EnableJpaAuditing

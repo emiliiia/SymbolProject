@@ -4,7 +4,7 @@ package org.symbolBackEnd.config;
   @project SymbolProject
   @class DataSourceConfig
   @version 1.0.0
-  @since 17.07.2023 - 14:01
+  @since 05.09.2023 - 20:18
 */
 
 import org.springframework.beans.factory.annotation.Value;
