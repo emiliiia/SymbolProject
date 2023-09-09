@@ -1,0 +1,43 @@
+<app-header></app-header>
+<!--start section content... -->
+<div class="postDiv">
+  <p id="datePostDiv">Sep, 12</p>
+  <h1 id="titlePostDiv">Hello</h1>
+  <p id="forewordPostDiv">Hello Hello Hello</p>
+
+  <div class="imgDivi">
+    <img class="img" src="assets/directionsSliderPhoto/19.jpg" alt="">
+  </div>
+
+  <p id="mainContent">HelloHelloHelloHello HelloHelloHelloHelloHello HelloHelloHelloHelloHello</p>
+  <hr id="postLowerHr">
+
+</div>
+
+
+<app-footer></app-footer>
+
+<!--
+
+<app-header></app-header>
+<body>
+<div class="postDiv">
+
+
+  <p id="datePostDiv" *ngIf="post.approved">{{post.publishedAt | date:'MMM d, y'}}</p>
+  <h1 id="titlePostDiv">{{post.title}}</h1>
+  <p id="forewordPostDiv">{{post.foreword}}</p>
+
+  <div class="imgDivi">
+    <img class="img" [src]="postImage+post.id+'.jpg'" (error)="onErrorPostImage($event)" alt="">
+  </div>
+
+  <p id="mainContent" [innerHTML]="post.content"></p>
+  <hr id="postLowerHr">
+
+</div>
+
+
+<app-footer></app-footer>
+
+-->
