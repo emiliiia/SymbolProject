@@ -4,23 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5eb5932-d0ea-44d8-ac98-69b77f4e0089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEnd/src/main/java/org/symbolBackEnd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SymbolProject.iml" afterDir="false" />
+    <list default="true" id="f5eb5932-d0ea-44d8-ac98-69b77f4e0089" name="Changes" comment="frontEndUpdate">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/directionsSliderPhoto/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/images/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/images/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resourse/images/image4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b317dce0-fbc3-4295-8a1a-057b4272ff98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b317dce0-fbc3-4295-8a1a-057b4272ff98.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b317dce0-fbc3-4295-8a1a-057b4272ff98/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b317dce0-fbc3-4295-8a1a-057b4272ff98/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/createTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/createTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,12 +72,16 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -53,21 +101,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "D:/SymbolProject/SymbolProject",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SymbolProject/SymbolProject&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2ef1323c08ddc2382d250091a0d76917&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\SymbolProject\\SymbolProject\\FrontEnd\\node_modules\\typescript\\lib&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SymbolProject\SymbolProject\FrontEnd\src\app\components\header" />
+      <recent name="D:\SymbolProject\SymbolProject\FrontEnd\src\app\components\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SymbolProject\SymbolProject\Resourse\directionsSliderPhoto" />
+      <recent name="D:\SymbolProject\SymbolProject\FrontEnd\src\app\components" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server (FrontEnd)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.symbolBackEnd.Main" />
+      <module name="BackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.symbolBackEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Angular Application (FrontEnd)" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
+    </configuration>
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.symbolBackEnd.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="d" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.symbolBackEnd.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.symbolBackEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymbolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.symbolBackEnd.SymbolApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.symbolBackEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Angular CLI Server (FrontEnd)" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/FrontEnd/package.json" />
@@ -79,6 +202,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SymbolApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,8 +218,262 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688376952406</updated>
-      <workItem from="1688376954132" duration="1251000" />
+      <workItem from="1688376954132" duration="5010000" />
+      <workItem from="1688409371245" duration="1275000" />
+      <workItem from="1688458747865" duration="3417000" />
+      <workItem from="1688717790114" duration="7679000" />
+      <workItem from="1688977024093" duration="4660000" />
+      <workItem from="1689070607630" duration="2626000" />
+      <workItem from="1689154093544" duration="2108000" />
+      <workItem from="1689501817306" duration="901000" />
+      <workItem from="1689589744805" duration="4811000" />
+      <workItem from="1689673320014" duration="1188000" />
+      <workItem from="1690022072141" duration="1195000" />
+      <workItem from="1690192563414" duration="3918000" />
+      <workItem from="1691406002932" duration="3043000" />
+      <workItem from="1691488148042" duration="2581000" />
+      <workItem from="1691658221156" duration="4101000" />
+      <workItem from="1691765887449" duration="650000" />
+      <workItem from="1692090287029" duration="3248000" />
+      <workItem from="1692189547788" duration="91000" />
+      <workItem from="1692189698979" duration="2969000" />
+      <workItem from="1692268069013" duration="2942000" />
+      <workItem from="1692781273143" duration="464000" />
+      <workItem from="1693395032004" duration="8850000" />
+      <workItem from="1693478125751" duration="2662000" />
+      <workItem from="1693485568914" duration="1571000" />
+      <workItem from="1693564525222" duration="6594000" />
+      <workItem from="1693750531405" duration="841000" />
+      <workItem from="1693904832774" duration="17037000" />
+      <workItem from="1693933122950" duration="4239000" />
+      <workItem from="1693985740905" duration="194000" />
+      <workItem from="1694248489611" duration="5211000" />
     </task>
+    <task id="LOCAL-00001" summary="starter">
+      <created>1688378516436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688378516436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dataBase">
+      <created>1689591532972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689591532972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="configuration">
+      <created>1689591788069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689591788069</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configurationUpdate">
+      <created>1694252913581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694252913582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="postControllerBackEnd">
+      <created>1694252944741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694252944741</updated>
+    </task>
+    <task id="LOCAL-00006" summary="postDTO">
+      <created>1694252984883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694252984883</updated>
+    </task>
+    <task id="LOCAL-00007" summary="entityUpdate">
+      <created>1694253034428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253034428</updated>
+    </task>
+    <task id="LOCAL-00008" summary="enums">
+      <created>1694253059060</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253059060</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DatabaseFetchException">
+      <created>1694253088417</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253088417</updated>
+    </task>
+    <task id="LOCAL-00010" summary="postAndUserMapper">
+      <created>1694253142162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253142162</updated>
+    </task>
+    <task id="LOCAL-00011" summary="postAndUserMapper">
+      <created>1694253205385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253205385</updated>
+    </task>
+    <task id="LOCAL-00012" summary="postRoleUserRepository">
+      <created>1694253237247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253237247</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fileStorageService">
+      <created>1694253260915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253260915</updated>
+    </task>
+    <task id="LOCAL-00014" summary="postService">
+      <created>1694253284917</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253284917</updated>
+    </task>
+    <task id="LOCAL-00015" summary="userService">
+      <created>1694253304765</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253304765</updated>
+    </task>
+    <task id="LOCAL-00016" summary="backEndUpdate">
+      <created>1694253341954</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253341954</updated>
+    </task>
+    <task id="LOCAL-00017" summary="backEndConfigurationUpdate">
+      <created>1694253373266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253373266</updated>
+    </task>
+    <task id="LOCAL-00018" summary="aboutUsPageFrontEnd">
+      <created>1694253558840</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253558840</updated>
+    </task>
+    <task id="LOCAL-00019" summary="articlePageFrontEnd">
+      <created>1694253587358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253587358</updated>
+    </task>
+    <task id="LOCAL-00020" summary="articleCardPageFrontEnd">
+      <created>1694253615820</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253615820</updated>
+    </task>
+    <task id="LOCAL-00021" summary="articlesPageFrontEnd">
+      <created>1694253632530</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253632530</updated>
+    </task>
+    <task id="LOCAL-00022" summary="directionsSliderPageFrontEnd">
+      <created>1694253657481</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253657481</updated>
+    </task>
+    <task id="LOCAL-00023" summary="footerPageFrontEnd">
+      <created>1694253675028</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253675028</updated>
+    </task>
+    <task id="LOCAL-00024" summary="headerPageFrontEnd">
+      <created>1694253698005</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253698005</updated>
+    </task>
+    <task id="LOCAL-00025" summary="homePageFrontEnd">
+      <created>1694253716868</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253716868</updated>
+    </task>
+    <task id="LOCAL-00026" summary="introductionSectionPageFrontEnd">
+      <created>1694253739183</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253739183</updated>
+    </task>
+    <task id="LOCAL-00027" summary="photoSliderFrontEnd">
+      <created>1694253764453</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253764453</updated>
+    </task>
+    <task id="LOCAL-00028" summary="skillsPageFrontEnd">
+      <created>1694253782988</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253782988</updated>
+    </task>
+    <task id="LOCAL-00029" summary="supportPageFrontEnd">
+      <created>1694253803099</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253803099</updated>
+    </task>
+    <task id="LOCAL-00030" summary="postModelFrontEnd">
+      <created>1694253848475</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253848475</updated>
+    </task>
+    <task id="LOCAL-00031" summary="postServiceFrontEnd">
+      <created>1694253869723</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253869723</updated>
+    </task>
+    <task id="LOCAL-00032" summary="frontEndUpdate">
+      <created>1694253898955</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1694253898955</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +489,33 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="entityUpdate" />
+    <MESSAGE value="enums" />
+    <MESSAGE value="DatabaseFetchException" />
+    <MESSAGE value="postAndUserMapper" />
+    <MESSAGE value="postRoleUserRepository" />
+    <MESSAGE value="fileStorageService" />
+    <MESSAGE value="postService" />
+    <MESSAGE value="userService" />
+    <MESSAGE value="backEndUpdate" />
+    <MESSAGE value="backEndConfigurationUpdate" />
+    <MESSAGE value="aboutUsPageFrontEnd" />
+    <MESSAGE value="articlePageFrontEnd" />
+    <MESSAGE value="articleCardPageFrontEnd" />
+    <MESSAGE value="articlesPageFrontEnd" />
+    <MESSAGE value="directionsSliderPageFrontEnd" />
+    <MESSAGE value="footerPageFrontEnd" />
+    <MESSAGE value="headerPageFrontEnd" />
+    <MESSAGE value="homePageFrontEnd" />
+    <MESSAGE value="introductionSectionPageFrontEnd" />
+    <MESSAGE value="photoSliderFrontEnd" />
+    <MESSAGE value="skillsPageFrontEnd" />
+    <MESSAGE value="supportPageFrontEnd" />
+    <MESSAGE value="postModelFrontEnd" />
+    <MESSAGE value="postServiceFrontEnd" />
+    <MESSAGE value="frontEndUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontEndUpdate" />
   </component>
 </project>
