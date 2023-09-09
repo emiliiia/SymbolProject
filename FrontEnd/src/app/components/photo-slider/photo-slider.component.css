@@ -1,0 +1,140 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  right: 0;
+  left: 0;
+  top: 50px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slider {
+  right: 0;
+  left: 0;
+  top: 80px;
+  position: relative;
+  height: 100%;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+h1{
+  padding-left: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+h4{
+  padding-left: 20px;
+  padding-top: 450px;
+  padding-bottom: -20px;
+  font-size: 14px;
+  margin-bottom: -15px;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  h1{
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 500px;
+  }
+}
+
+@media (max-width: 760px) {
+  h1{
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 300px;
+  }
+}
+
+
+@media (max-width: 868px) {
+  h1{
+    padding-left: 20px;
+    font-size: 18px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 450px;
+  }
+}
+
+@media (max-width: 772px) {
+  h1{
+    padding-left: 20px;
+    font-size: 24px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 450px;
+  }
+}
+
+@media (max-width: 720px) {
+  h1{
+    padding-left: 20px;
+    font-size: 24px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1{
+    padding-left: 20px;
+    font-size: 24px;
+    color: white;
+  }
+
+  h4{
+    padding-top: 250px;
+  }
+}
