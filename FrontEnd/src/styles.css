@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 
 body{
-  background-color: #242323;
+  background-color: #2b2b2c;
   font-family: 'Jura', sans-serif;
   font-style: normal;
   line-height: normal;
 }
+
+.ngx-pagination .current,
+.btn-info, .ngx-pagination a:hover {
+  background: rgba(116, 158, 148, 0) !important;
+  border: transparent;
+  border-radius: 50%;
+  color: white;
+}
+
+.ngx-pagination li:not(.pagination-next, .pagination-previous) {
+  margin-left: 5px;
+}
+
+.ngx-pagination .disabled,
+.pagination-next a:hover, .pagination-previous a:hover {
+  background: none !important;
+  color: gray !important;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
