@@ -1,0 +1,78 @@
+<app-header></app-header>
+<!--start section content... -->
+
+<body>
+<div id="titleBlock"><p>СТВОРЕННЯ СТАТТІ</p></div>
+<div class="postDiv">
+  <div class="hotDog"></div>
+  <a routerLink="/rules"><p id="answ">Ви читали<br>правила публікації?</p></a>
+
+
+  <div class="mainBody">
+    <form #postForm="ngForm" novalidate autocomplete="off" (ngSubmit)="onSave()">
+      <!--TITLE INPUT WITH MAX LENGTH 80-->
+      <div id="inputTitle">
+        <p id="title">Назва <b class="red">*</b> :</p>
+        <input  type="text" name="title" maxlength="80" placeholder="Введіть текст тут..."
+                [(ngModel)]="post.title" required appTrim #title="ngModel" (keyup)="titleInput($event)">
+        <div class="error" *ngIf="!title.valid && !title.untouched">*Назва обов'язкова</div>
+        <div class="inputLengthDiv">
+          {{titleNumberOfCharacters}} / {{titleMaxNumberOfCharacters}}
+        </div>
+      </div>
+
+      <!--FOREWORD INPUT WITH MAX LENGTH 150-->
+      <div  id="inputForeword">
+        <p id="foreword">Передмова <b class="red">*</b> :</p>
+        <textarea name="foreword" maxlength="150" placeholder="Введіть текст тут..." cols="80" rows="5"  type="text"
+                  [(ngModel)]="post.foreword" required appTrim #foreword="ngModel" (keyup)="forewordInput($event)"></textarea>
+        <div class="error" *ngIf="!foreword.valid && !foreword.untouched">*Передмова обов'язкова</div>
+        <div class="inputLengthDiv">
+          {{forewordNumberOfCharacters}} / {{forewordMaxNumberOfCharacters}}
+        </div>
+      </div>
+
+      <!--PHOTO INPUT-->
+      <div id="inputPhoto">
+        <p id="photo">Фото <b class="red">*</b> :</p>
+        <div class="dropzone">
+          <input type="file" name="photo" id="uploadPhoto" accept="image/png, image/jpeg" appFileValidator
+                 (change)="previewImage()" ngModel #photo="ngModel">
+          <p>Перетягніть або <i style="text-decoration: underline">клікніть</i>, щоб завантажити<br>
+            Рекомендуємо використовувати якісні файли у форматі .jpg (розміром до 20 Мб).</p>
+        </div>
+      </div>
+      <div id="uploadedPhoto" *ngIf="image != null || mode == 'UPDATE'">
+        <p class="previewPhoto">Попередній <br> перегляд фото:</p>
+        <div class="imgDiv">
+          <img id="previewImg" [src]="previewImg + postId + '.jpg'" alt=""/>
+        </div>
+      </div><br>
+
+      <!--CONTENT INPUT-->
+      <p id="contentText">Текст статті <b class="red">*</b> :</p>
+      <div id="content">
+        <angular-editor id="editor" name="content" #content="ngModel" [placeholder]="'Введіть текст тут...'" [(ngModel)]="post.content" type="text"
+                        required appTrim></angular-editor>
+        <div class="errorContent" *ngIf="!content.valid && !content.untouched">*Текст статті обов'язковий</div>
+      </div>
+      <p  id="warning">🌭 Поля введення <b class="red">*</b> є обов'язковими 🌭</p>
+      <div class="checkBox" *ngIf="mode != 'UPDATE'">
+
+        <br><input type="checkbox" id="switch" name="checkbox" (change)="changeEvent($event)" /><label for="switch"></label>
+
+        <p id="agreeText">Я підтверджую, що я є автором опублікованого мною тексту і розумію, що публікація чужих робіт
+          або публікація робіт, які порушують правила, може призвести до видалення цих робіт і
+          блокування доступу до сайту.</p>
+      </div>
+      <button *ngIf="mode == 'UPDATE'" type="submit" class="button-74" role="button" [disabled]="title.invalid || content.invalid || foreword.invalid"
+              [title]="postForm.invalid ? 'Fill all fields with valid values.' : ''">Зберегти</button>
+
+      <button *ngIf="mode == 'CREATE'" type="submit" class="button-74" role="button" [disabled]="title.invalid || content.invalid || foreword.invalid
+         || photo.invalid || toogleBool || image == null"
+              [title]="postForm.invalid ? 'Fill all fields with valid values.' : ''">Опублікувати</button>
+    </form>
+  </div>
+
+</div>
+</body>
