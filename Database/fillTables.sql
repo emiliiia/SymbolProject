@@ -14,16 +14,16 @@ VALUES
 
 INSERT INTO post (id, author_id, title, foreword, content, published_at, created_at, updated_at)
 VALUES
-    (1, 1, 'A', 'Travel', 'A 1.5 mile wide swath of winds gusting to around 95 mph created **tornado-like** damage along Kentucky Highway 259 in Edmons
+    (8, 1, 'A', 'Travel', 'A 1.5 mile wide swath of winds gusting to around 95 mph created **tornado-like** damage along Kentucky Highway 259 in Edmons
 on County. The winds, extending 3/4 of a mile north and south of Bee Spring, destroyed or heavily damaged several small outbuildings, tore
 part of the roof off of one home, uprooted and snapped the trunks of numerous trees, and snapped around a dozen power poles. Several othe
 r homes sustained roof damage, and wind-driven hail shredded vinyl siding on a number of buildings.', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (2, 1, 'B', 'Cooking', 'Cooking', '2022-09-02 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (3, 2, 'C', 'Programming', 'Programming', '2022-09-03 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (4, 1, 'D', 'News', 'News', '2022-09-04 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (5, 2, 'E', 'Sport', 'Sport', '2022-09-05 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (6, 1, 'F', 'Music', 'A 1.5 mile wide swath of winds gusting to around 95 mph created **tornado-like** damage along Kentucky Highway 259 in Edmons
+    (9, 1, 'B', 'Cooking', 'Cooking', '2022-09-02 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
+    (10, 2, 'C', 'Programming', 'Programming', '2022-09-03 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
+    (11, 1, 'D', 'News', 'News', '2022-09-04 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
+    (12, 2, 'E', 'Sport', 'Sport', '2022-09-05 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
+    (13, 1, 'F', 'Music', 'A 1.5 mile wide swath of winds gusting to around 95 mph created **tornado-like** damage along Kentucky Highway 259 in Edmons
 on County. The winds, extending 3/4 of a mile north and south of Bee Spring, destroyed or heavily damaged several small outbuildings, tore
 part of the roof off of one home, uprooted and snapped the trunks of numerous trees, and snapped around a dozen power poles. Several othe
 r homes sustained roof damage, and wind-driven hail shredded vinyl siding on a number of buildings.', '2022-09-06 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07'),
-    (7, 2, 'G', 'Gaming', 'Gaming', '2022-09-07 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07');
+    (14, 2, 'G', 'Gaming', 'Gaming', '2022-09-07 19:10:25-07', '2022-09-01 19:10:25-07', '2022-09-01 19:10:25-07');
