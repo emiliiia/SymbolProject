@@ -10,8 +10,12 @@ package org.symbolBackEnd.controller;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.symbolBackEnd.dto.PageDTO;
 import org.symbolBackEnd.dto.post.PostDTO;
 import org.symbolBackEnd.dto.post.PostFormDTO;
+import org.symbolBackEnd.dto.post.PostListDTO;
+import org.symbolBackEnd.dto.search.PostSearch;
+import org.symbolBackEnd.dto.search.SearchDTO;
 import org.symbolBackEnd.service.fileStorage.FilesStorageServiceImpl;
 import org.symbolBackEnd.service.post.PostServiceImpl;
 
@@ -19,7 +23,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8080", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 @RequestMapping(value = "/api/posts", produces = MediaType.APPLICATION_JSON_VALUE)
 public class PostController {
     private final PostServiceImpl postService;
@@ -28,6 +32,11 @@ public class PostController {
     public PostController(PostServiceImpl postService, FilesStorageServiceImpl fileService) {
         this.postService = postService;
         this.fileService = fileService;
+    }
+
+    @PostMapping("/search")
+    public PageDTO<PostListDTO> showPostPage(@RequestBody SearchDTO<PostSearch> search) {
+        return postService.getPage(search);
     }
 
     @PostMapping("/create")
@@ -55,7 +64,7 @@ public class PostController {
         return postService.get(id);
     }
 
-    @RequestMapping("/")
+    @GetMapping("/")
     List<PostDTO> showAll(){
         return postService.getAll();
     }

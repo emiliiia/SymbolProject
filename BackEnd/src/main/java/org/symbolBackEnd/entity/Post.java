@@ -25,12 +25,12 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-/*
+
     @NotNull(message = "AUTHOR may not be null")
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="author_id")
     private User author;
-*/
+
     @NotBlank(message = "TITLE may not be null")
     @Size(max = 128, message = "TITLE must be between 1 and 128 characters long")
     private String title;
@@ -57,7 +57,7 @@ public class Post {
     public Post() {
     }
 
-    public Post(Integer id, /*User author,*/ String title, String foreword, String content, LocalDateTime publishedAt, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Post(Integer id, User author, String title, String foreword, String content, LocalDateTime publishedAt, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         //this.author = author;
         this.title = title;
@@ -75,7 +75,7 @@ public class Post {
     public void setId(Integer id) {
         this.id = id;
     }
-/*
+
     public User getAuthor() {
         return author;
     }
@@ -83,7 +83,7 @@ public class Post {
     public void setAuthor(User author) {
         this.author = author;
     }
-*/
+
     public String getTitle() {
         return title;
     }
