@@ -255,6 +255,11 @@ body {
 }
 
 @media (max-width: 1145px) {
+  #mz-gallery-container{
+    background-color: rgba(43, 220, 227, 0);
+    margin-top: -100px;
+    height: 500px;
+  }
   #mz-gallery figure {
     scroll-snap-align: center;
   }
