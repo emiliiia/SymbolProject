@@ -1,191 +1,45 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="search-box">
+  <button class="btn-search" (click)="apply()"><i class="fa fa-search"></i></button>
+  <input type="text" class="input-search" placeholder="Type to Search..." [(ngModel)]="searchParameter.searchPattern.search" (keyup.enter)="apply()">
+</div>
+
+<table class="select" matSort (matSortChange)="setSorted($event)" [matSortDirection]="sort.direction" [matSortActive]="sort.active">
+
+  <tr>
+    <th class="bydate"  mat-sort-header="published_at"> By date
+    </th>
+    <th class="alphabet" mat-sort-header="title"> Alphabetically </th>
+  <tr>
+</table>
+
 <div class="cards">
-  <div class="card card1">
+  <div class="card card1" *ngFor="let post of page.content | paginate: {itemsPerPage: searchParameter.pageSize, currentPage:  searchParameter.page + 1, totalItems: page.totalItem}">
     <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
+      <img [src]="postImage+post.id+'.jpg'" (error)="onErrorPostImage($event)" alt="image">
     </div>
     <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+      <a routerLink="/articles/{{post.id}}">
+        <h3>{{post.title}}</h3>
+        <p>{{post.foreword}}</p>
+      </a>
     </div>
   </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
+</div>
+
+<br><br>
+<div id="paginationDiv">
+  <div style=" position: relative; font-size: 16px; margin: 20px auto auto;">
+    <button id="getFirst" class="btn btn-dark btn-lg" (click)="getFirst()">First Page</button>
+    <div id="pagination">
+      <pagination-controls style="font-family: 'Poppins',sans-serif;"
+                           previousLabel="Previous"
+                           nextLabel="Next"
+                           class="my-pagination"
+                           [maxSize]="6" (pageChange)="changePage($event.valueOf() - 1)">
+      </pagination-controls>
     </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card1">
-    <div class="container">
-      <img src="assets/images/image1.jpg" alt="las vegas">
-    </div>
-    <div class="details">
-      <h3>Las Vegas</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card2">
-    <div class="container">
-      <img src="assets/images/image2.jpg" alt="New York">
-    </div>
-    <div class="details">
-      <h3>New York</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
-  </div>
-  <div class="card card3">
-    <div class="container">
-      <img src="assets/images/image3.jpg" alt="Singapore">
-    </div>
-    <div class="details">
-      <h3>Singapore</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-    </div>
+    <button id="getLast" class="btn btn-dark btn-lg" (click)="getLast()">Last Page</button>
   </div>
 </div>
