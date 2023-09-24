@@ -4,15 +4,15 @@
     <div (click)="goToNext()" class="rightArrow">❱</div>
   </div>
   <div
-    class="slide"
-    [ngStyle]="{ 'background-image': getCurrentSlideUrl() }">
+    class="slide">
+    <img src="image17.jpg" alt="Night Sky" width="100%" height="600">
 
-    <h4 class="slideTitle">{{getCurrentSlideDate() | date}}</h4>
-    <h1 class="slideTitle">{{getCurrentSlideTitle()}}</h1>
+    <h4 class="slideTitle" style="margin-top: -600px">{{getCurrentSlideDate() | date}}</h4>
+    <h1 class="slideTitle"><a routerLink="/articles/{{getCurrentSlideId()}}">{{getCurrentSlideTitle()}}</a></h1>
   </div>
   <div class="dotsContainer">
     <div
-      *ngFor="let slide of slides; let slideIndex = index"
+      *ngFor="let slide of page.content; let slideIndex = index"
       class="dot"
       (click)="goToSlide(slideIndex)"
     >

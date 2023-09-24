@@ -7,8 +7,13 @@
   border-radius: 5px;
   background-size: cover;
   background-position: center;
+  background-image: url(image17.jpg);
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
 .rightArrow {
   position: absolute;
   top: 50%;
@@ -54,6 +59,7 @@ h1{
   padding-left: 20px;
   color: white;
   font-size: 40px;
+  margin-top: 20px;
 }
 
 h4{
